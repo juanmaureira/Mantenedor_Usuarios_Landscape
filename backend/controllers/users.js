@@ -68,12 +68,12 @@ const {
       } else {
         return res.status(200).json({
           response,
-          message: httpMessage["deleted"],
+          message: httpMessages["deleted"],
         });
       }
     } else {
       return res.status(403).json({
-        message: httpMessage("missing params"),
+        message: httpMessages["missing params"],
       });
     }
   };
