@@ -17,15 +17,15 @@ cd /Mantenedor_Usuarios_Landscape/backend
 $ npm run dev
 
 
-```
+
 Enviar datos a traves de postman, insomnia u otro software similar:
-```
+
 
 ## Para crear un usuario
 
-```
+
 POST http://localhost:3000/users
-```
+
 
 BODY:
 
@@ -36,17 +36,16 @@ BODY:
 		"email": "juanmaureira3@gmail.com"
 	}
 }
-```
+
 
 ## Leer todos los usuarios
 
-```
 GET http://localhost:3000/users
-``
 
-## UPDATE a un usuario
 
-```
+## Actualizar a un usuario
+
+
 PUT http://localhost:3000/users/${ID_USUARIO}
 
 {
@@ -54,8 +53,8 @@ PUT http://localhost:3000/users/${ID_USUARIO}
 		"name": ${CAMBIAR_NOMBRE}
 	}
 }
-```
 
-## DELETE a un usuario
+
+## Borrar a un usuario
 
 DELETE http://localhost:3000/users/${ID_USUARIO}
